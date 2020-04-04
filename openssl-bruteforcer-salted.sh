@@ -1,3 +1,4 @@
+#Created by micosec
 for pwd in $(cat /root/SecLists/Passwords/rockyou-75.txt)
   do openssl enc -aes-256-cbc -d -a -in drupal.txt.enc -out file.txt -k $pwd
   if [ $? -eq 0 ]
