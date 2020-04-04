@@ -10,5 +10,16 @@ Used for port scanning
 
 Used for decrypting openssl encrypted files with salt
 
+# Port-knocker
+
+Used to open closed/filtered ports using port knocking
+
+
+
+
+
+
+
 
 More tools to come in the future.
+
